@@ -25,8 +25,11 @@ public class Main implements RequestHandler<Map<String, Object>, Map<String, Str
 
         String originalUrl = bodyMap.get("originalUrl");
         String expirationTime = bodyMap.get("expirationTime");
+        long expirationTimeInSeconds = Long.parseLong(expirationTime);
 
         String shortUrlCode = UUID.randomUUID().toString().substring(0,8);
+
+        UrlData urlData = new UrlData(originalUrl, expirationTimeInSeconds);
 
         Map<String, String> response = new HashMap<>();
         response.put("code", shortUrlCode);
