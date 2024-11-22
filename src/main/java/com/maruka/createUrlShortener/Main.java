@@ -1,4 +1,4 @@
-package com.maruka.createtUrlShortener;
+package com.maruka.createUrlShortener;
 
 import java.util.HashMap;
 import java.util.Map;

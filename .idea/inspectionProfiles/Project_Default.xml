@@ -7,16 +7,19 @@
         <list>
           <option value="CreateUrlLambda" />
           <option value="CreateUrlLambda" />
+          <option value="CreateUrlLambda" />
         </list>
       </option>
       <option name="ignoredPackages">
         <list>
           <option value="org.apache.logging.log4j:log4j-core:2.16.0" />
           <option value="com.fasterxml.jackson.core:jackson-databind:2.12.3" />
+          <option value="io.netty:netty-codec-http:4.1.68.Final" />
         </list>
       </option>
       <option name="ignoredReasons">
         <list>
+          <option value="Not exploitable" />
           <option value="Not exploitable" />
           <option value="Not exploitable" />
         </list>
