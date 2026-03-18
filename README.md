@@ -11,6 +11,8 @@
 > **Cloud-native URL shortener built with Serverless architecture**, designed for high scalability, low cost, and stateless execution.
 
 ---
+ 📌 This project is part of a distributed system  
+ 👉 See full architecture: https://github.com/Maruka13/serverless-url-shortener-architecture
 
 ## 🚀 Overview
 
